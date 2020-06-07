@@ -1,0 +1,1 @@
+get-process | where-object Name -ne *powershell*  | FT name, id
